@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="login.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="IM.c">
       <Filter>源文件</Filter>
     </ClCompile>
