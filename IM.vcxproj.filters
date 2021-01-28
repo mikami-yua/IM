@@ -21,5 +21,22 @@
     <ClCompile Include="IM.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="en-decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="user_manage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="net_hdr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user_manage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="net_hdr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
