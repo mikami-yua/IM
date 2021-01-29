@@ -144,6 +144,8 @@
     <ClCompile Include="IM.c" />
     <ClCompile Include="login.c" />
     <ClCompile Include="net_hdr.c" />
+    <ClCompile Include="server.c" />
+    <ClCompile Include="time_client.c" />
     <ClCompile Include="time_server.c" />
     <ClCompile Include="user_manage.c" />
   </ItemGroup>

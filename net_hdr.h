@@ -37,7 +37,8 @@ struct in_addr
 };
 */
 
+void socklib_init();//负责加载sock库
+void sock_cleanup(int fd);//对sock库进行清理
+
+
 #endif // !NET_HDR_H
-
-
-
