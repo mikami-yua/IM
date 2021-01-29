@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client.c" />
     <ClCompile Include="en-decode.c" />
     <ClCompile Include="IM.c" />
     <ClCompile Include="login.c" />
     <ClCompile Include="net_hdr.c" />
+    <ClCompile Include="time_server.c" />
     <ClCompile Include="user_manage.c" />
   </ItemGroup>
   <ItemGroup>

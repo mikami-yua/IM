@@ -8,7 +8,7 @@
  
 #pragma comment(lib,"Ws2_32.lib")//动态连接到这个库 Ws2_32.lib win sock编程必须的库
 
-int main(int argc,char **argv[]) {
+//int main() {
 	/*加解密
 	char msg[MAX_MSG_LEN];
 	int key = 3;//ASCII码的偏移加密
@@ -85,6 +85,7 @@ int main(int argc,char **argv[]) {
 		printf("argument%d:%s\n", i, argv[i]);//argument0:E:\c_project\IM\Debug\IM.exe
 	}
 	*/
+	/*
 	//把用户输入的点分10进制ip地址转换为一个无符号的整型数
 	WSADATA wsa_data;
 	int ret;
@@ -111,6 +112,23 @@ int main(int argc,char **argv[]) {
 
 	WSACleanup();//完成winsock库的清理工作
 	//所用使用winsock编程的都必须使用这两个库进行初始化和清理
+	*/
+	
 
-	return 0;
-}
+	//服务器需要调用的listen函数
+	
+	//return 0;
+//}
+/*
+服务器端需要
+启动socket---》创建套接字(Socket)描述符---》bind绑定socket与地址结构
+---》启动一个listen函数---》等待来自客户端的连接
+---》accept函数接收来自客户端的请求，如果没有请求将一致阻塞到有客户端的请求为止
+*/
+/*
+客户端需要
+启动socket---》使用connect函数连接服务器
+send函数和recv函数完成收发
+
+closesocket（）关闭连接
+*/

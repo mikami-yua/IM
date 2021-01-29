@@ -30,6 +30,12 @@
     <ClCompile Include="net_hdr.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="time_server.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="client.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="user_manage.h">
