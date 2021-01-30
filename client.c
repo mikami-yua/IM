@@ -42,7 +42,7 @@ void send_add_msg(int fd) {
 	}
 }
 
-int main(int argc,char *argv[]) {
+int start_client(int argc,char *argv[]) {
 	int sockfd;
 	if (argc != 2) {
 		printf("usage:%s <ipv4 address>\n", argv[1]);

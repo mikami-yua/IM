@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chat_log.c" />
+    <ClCompile Include="chat_log.h" />
     <ClCompile Include="client.c" />
     <ClCompile Include="en-decode.c" />
     <ClCompile Include="IM.c" />
     <ClCompile Include="login.c" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="net_hdr.c" />
     <ClCompile Include="server.c" />
     <ClCompile Include="time_client.c" />
